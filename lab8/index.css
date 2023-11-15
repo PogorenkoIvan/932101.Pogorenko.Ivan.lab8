@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.Wrapper, .Content{
+    display: flex;
+    flex-direction: column;
+}
+
+.Buttons{
+    width: 100px;
+}
+
+.Object{
+    display: flex;
+    flex-direction: row;
+}
+
+.btn_up, .btn_down, .btn_close{
+    width: 20px;
+    height: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid black;
+}
+
+.btn_up{
+    background-image: url(arrowd.png);
+}
+
+.btn_down{
+    background-image: url(arrow.png);   
+}
+
+.btn_close{
+    background-image: url(close.png);
+}
